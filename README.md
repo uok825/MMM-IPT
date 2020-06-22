@@ -43,5 +43,5 @@ METHODS:
 cd ~/MagicMirror/modules
 git clone https://github.com/uok825/MMM-IPT.git
 Copy-Paste config texts. Thanks.
-´´´´
+````
 Thanks for the [eulhaque](https://github.com/eulhaque).

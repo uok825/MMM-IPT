@@ -20,6 +20,7 @@ To add the module do the following which also shows the configurable values:
     }
 },
 ````
+````javascript
 1 - Muslim World League
 2 - Islamic Society of North America
 3 - Egyptian General Authority of Survey
@@ -34,5 +35,6 @@ To add the module do the following which also shows the configurable values:
 12 - Union Organization islamic de France
 13 - Diyanet İşleri Başkanlığı, Turkey
 14 - Spiritual Administration of Muslims of Russia
+````
 
 Thanks for the [eulhaque](https://github.com/eulhaque).

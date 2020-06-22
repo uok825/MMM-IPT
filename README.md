@@ -21,6 +21,8 @@ To add the module do the following which also shows the configurable values:
 },
 ````
 ````javascript
+METHODS:
+
 1 - Muslim World League
 2 - Islamic Society of North America
 3 - Egyptian General Authority of Survey

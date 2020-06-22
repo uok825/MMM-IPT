@@ -38,5 +38,10 @@ METHODS:
 13 - Diyanet İşleri Başkanlığı, Turkey
 14 - Spiritual Administration of Muslims of Russia
 ````
-
+# Install the module
+````javascript
+cd ~/MagicMirror/modules
+git clone https://github.com/uok825/MMM-IPT.git
+Copy-Paste config texts. Thanks.
+´´´´
 Thanks for the [eulhaque](https://github.com/eulhaque).

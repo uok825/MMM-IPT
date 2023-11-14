@@ -35,7 +35,7 @@ Thanks for the [eulhaque](https://github.com/eulhaque).
 		longitude: 32.4641803,
 		timeZoneString: "Europe/Istanbul",
 		method: 13, //https://aladhan.com/prayer-times-api
-		timingsApi: 'http://api.aladhan.com/timings/', 
+		timingsApi: 'http://api.aladhan.com/v1/timings/', 
 		school: 1, //"school" - Optional. 0 for Shafii, 1 for Hanfi. If you leave this empty, it defaults to Shafii.
 		adhanSrc: '',
 		css_class: 'bright medium',
@@ -137,11 +137,10 @@ Thanks for the [eulhaque](https://github.com/eulhaque).
 	},
 
 	updateTimings: function() {
-		var timestamp = Math.floor(Date.now()/1000);
-		var url = this.config.timingsApi + timestamp + "?";
+		var currentDate = new Date();
+		var url = this.config.timingsApi + currentDate.getDate() + "-" + (currentDate.getMonth() + 1) + "-" + currentDate.getFullYear() + "?";
 		url += "longitude=" + this.config.longitude;
 		url += "&latitude=" + this.config.latitude;
-		url += "&timezonestring=" + this.config.timeZoneString;
 		url += "&method=" + this.config.method;
 		url += "&school=" + this.config.school;
 		var self = this;

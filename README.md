@@ -23,13 +23,13 @@ To add the module do the following which also shows the configurable values:
 ````javascript
 METHODS:
 
-1 - Muslim World League
+0 - Shia Ithna-Ansari
+1 - University of Islamic Sciences, Karachi
 2 - Islamic Society of North America
-3 - Egyptian General Authority of Survey
+3 - Muslim World League
 4 - Umm Al-Qura University, Makkah
-5 - University of Islamic Sciences, Karachi
-6 - Institute of Geophysics, University of Tehran
-7 - Shia Ithna-Ashari, Leva Institute, Qum
+5 - Egyptian General Authority of Survey
+7 - Institute of Geophysics, University of Tehran
 8 - Gulf Region
 9 - Kuwait
 10 - Qatar
@@ -37,6 +37,8 @@ METHODS:
 12 - Union Organization islamic de France
 13 - Diyanet İşleri Başkanlığı, Turkey
 14 - Spiritual Administration of Muslims of Russia
+15 - Moonsighting Committee Worldwide (also requires shafaq parameter)
+16 - Dubai (unofficial)
 ````
 # Install the module
 ````javascript
